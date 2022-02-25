@@ -12,7 +12,7 @@ function App() {
       </header>
       <Dictionary /> 
       <footer>
-        Coded by Chevonne Smellie and is open-sourced on GitHub.
+        Coded by <a href="https://awesome-meitner-96a405.netlify.app/">Chevonne Smellie</a> and is <a href ="https://github.com/chevonnesmellie/dictionary-app" rel="noreferrer">open-sourced on GitHub</a>.
       </footer>
     </div>
   );
