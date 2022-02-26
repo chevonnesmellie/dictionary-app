@@ -1,5 +1,6 @@
 import React from "react";
 import Meanings from "./Meanings";
+import Phonetics from "./Phonetics";
 
 export default function Results(props) {
     if (props.results) {
@@ -8,8 +9,8 @@ export default function Results(props) {
                 <h2 className="mt-3">{props.results.word}</h2>
                 {props.results.phonetics.map(function (phonetic, index) {
                     return (
-                        <span className="me-3" key={index}>
-                            {phonetic.text}
+                        <span key={index}>
+                            <Phonetics phonetics={phonetic} />
                         </span>
                     )
                 })}
