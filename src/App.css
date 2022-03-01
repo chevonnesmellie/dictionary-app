@@ -1,12 +1,19 @@
-.App {
+.App img {
+  margin: 30px auto 5px;
+  max-width: 75px;
+  display: block;
+}
+
+.App h1, footer {
+  color: rgb(102, 3, 102);
+  margin: 0 0 20px;
   text-align: center;
 }
 
-.App img {
-  margin: 40px 0 10px;
-  max-width: 75px;
+.App a {
+  color: rgb(102, 3, 102);
 }
 
-.App footer {
-  margin-top: 20px;
+.App a:hover {
+  color: blue;
 }

@@ -1,0 +1,9 @@
+.Synonyms .label {
+    margin-left: 30px;
+    line-height: 2;
+}
+
+.Synonyms .synonym {
+    font-weight: medium;
+    color: rgb(102, 3, 102);
+}

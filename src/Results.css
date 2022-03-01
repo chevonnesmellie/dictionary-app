@@ -1,0 +1,23 @@
+.Results {
+    text-align: left;
+    margin: 0 400px;
+}
+
+.Results h2 {
+    color: white;
+}
+
+.Results .meanings {
+    background: white;
+    border: 1px solid rgb(102, 3, 102);
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 15px 40px;
+}
+
+.Results section {
+    background: rgb(204, 129, 204);
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
