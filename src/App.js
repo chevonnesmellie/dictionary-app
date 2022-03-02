@@ -12,7 +12,7 @@ function App() {
       </header>
       <Dictionary /> 
       <footer>
-        Coded by <a href="https://awesome-meitner-96a405.netlify.app/" target="_blank" rel="noreferrer">Chevonne Smellie</a> and is <a href ="https://github.com/chevonnesmellie/dictionary-app" target="_blank" rel="noreferrer">open-sourced on GitHub</a>.
+        Coded by <a href="https://awesome-meitner-96a405.netlify.app/" target="_blank" rel="noreferrer" className="contact-links">Chevonne Smellie</a> and is <a href ="https://github.com/chevonnesmellie/dictionary-app" target="_blank" rel="noreferrer" className="contact-links">open-sourced on GitHub</a>.
       </footer>
     </div>
   );

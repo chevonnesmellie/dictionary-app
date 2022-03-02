@@ -5,15 +5,19 @@
 }
 
 .App h1, footer {
-  color: rgb(102, 3, 102);
+  color: #9E00F5;
   margin: 0 0 20px;
   text-align: center;
 }
 
 .App a {
-  color: rgb(102, 3, 102);
+  color: #9E00F5;
 }
 
 .App a:hover {
-  color: blue;
+  color: white;
+}
+
+.App .contact-links:hover {
+  color: #DFB8F5;
 }

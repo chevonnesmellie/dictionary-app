@@ -7,17 +7,24 @@
     color: white;
 }
 
-.Results .meanings {
-    background: white;
-    border: 1px solid rgb(102, 3, 102);
-    border-radius: 4px;
+.Results .meanings, .header {
     margin: 10px 0;
     padding: 15px 40px;
 }
 
 .Results section {
-    background: rgb(204, 129, 204);
     padding: 10px 20px;
-    border-radius: 4px;
     margin: 15px 0;
+    background: #DFB8F5;
+    border: 1px solid #B84BF4;
+    border-radius: 4px;
+}
+
+.Results .header {
+    margin: 10px 0;
+    padding: 15px 40px;
+}
+
+.Results .meanings {
+    background: white;
 }

@@ -5,8 +5,8 @@
 }
 
 .Dictionary .search-btn {
-    color: rgb(102, 3, 102);
-    border: 1px solid rgb(102, 3, 102);
+    color: #9E00F5;
+    border: 1px solid #9E00F5;
     background: white;
     margin-left: 15px;
     transition: all 250ms ease-in-out;
@@ -14,6 +14,10 @@
 
 .Dictionary .search-btn:hover {
     color: white;
-    border: 1px solid rgb(102, 3, 102); 
-    background: rgb(102, 3, 102);
+    border: 1px solid #9E00F5;
+    background: #DFB8F5;
+}
+
+.Dictionary .search-input {
+    max-width: 695px;
 }
