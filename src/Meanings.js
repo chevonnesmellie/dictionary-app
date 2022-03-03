@@ -10,21 +10,21 @@ export default function Meanings(props) {
             {props.meanings.definitions.map(function (definition, index) {
                 if (definition.example) {
                     return (
-                        <p key={index}>
+                        <div key={index}>
                             <span className="definition">{index+1}. {definition.definition}</span>
                             <br />
                             <span className="example">{definition.example}</span>
                             <br />
                             <Synonyms synonyms={definition.synonyms} />
-                        </p>
+                        </div>
                     )
                 } else {
                     return (
-                        <p key={index}>
+                        <div key={index}>
                             <span className="definition">{index+1}. {definition.definition}</span>
                             <br />
                             <Synonyms synonyms={definition.synonyms} />
-                        </p>
+                        </div>
                     )
                 }
             })}

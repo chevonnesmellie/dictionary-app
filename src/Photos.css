@@ -1,0 +1,13 @@
+.Photos {
+    background: white;
+    border: 1px solid #B84BF4;
+    border-radius: 4px;
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+.Photos .photo-grid {
+    border-radius: 4px;
+    border: 1px solid #B84BF4;
+    margin-bottom: 1px;
+}
