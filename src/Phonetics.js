@@ -1,12 +1,15 @@
 import React from "react";
+import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Phonetics.css";
 
 export default function Phontics(props) {
-    if (props.phonetics.audio) {
+    console.log(props.phonetics);
+    if (props.phonetics.audio.length > 10) {
         return (
             <span className="Phonetics me-3">
-                <a href={props.phonetics.audio} target="_blank" rel="noreferrer">{props.phonetics.text}</a>
+                <a href={props.phonetics.audio} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faHeadphones} /> {props.phonetics.text}</a>
             </span>
         )
     } else {

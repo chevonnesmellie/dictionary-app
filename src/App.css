@@ -11,11 +11,11 @@
 }
 
 .App a {
-  color: #9E00F5;
+  color: #212529;
 }
 
 .App a:hover {
-  color: white;
+  color: #9E00F5;
 }
 
 .App .contact-links:hover {
