@@ -9,6 +9,6 @@
 
 .Photos img {
     border-radius: 4px;
-    border: 1px solid #B84BF4;
-    max-width: 200px;
+    box-shadow: 5px 5px #DFB8F5;
+    min-width: 210px;
 }
